@@ -1,0 +1,13 @@
+# Simple Network Monitoring Tool
+
+## Task
+Create a basic network monitoring tool that checks the availability of a list of websites.
+
+## Objective
+The objective of this project is to learn about HTTP requests and response handling by developing a tool that monitors the status of specified websites. Note this can be done in any programming language
+
+## Implementation Steps
+1. **Use a library like `requests` in Python** to send GET requests to a list of URLs.
+2. **Check the response status code** and report whether each site is up or down.
+3. **Display the results** in a user-friendly format.
+

@@ -1,0 +1,26 @@
+                    [Internet]
+                         |
+                     [Router]
+                         |
+                    [Firewall]
+                         |
+                       +---+
+                       |DMZ|
+                       +---+
+                    /    |    \
+                   /     |     \ 
+      [Web Server]       |      \
+                         |      [Application Server]       
+                         |
+                +----------------+
+                |Internal Network|
+                +----------------+
+               /         |         \
+        [Database]       |         [Switch]
+                         |              |
+                  [VPN Gateway]         |
+                                        |
+                                        |
+                                +-----------+
+                                |Workstations|
+                                +-----------+
