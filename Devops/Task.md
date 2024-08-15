@@ -1,26 +1,3 @@
-# Build a Complete CI/CD Pipeline for a Microservices Application with Load Testing
-
-## Overview
-Your task is to implement a complete CI/CD pipeline for a microservices-based web application using Docker, Nginx, and Ansible, with a focus on load testing.
-
-The task involves the following components:
-- **Microservices**: A simple web application broken down into multiple microservices.
-- **Docker**: Containerization of the application.
-- **Nginx**: Configuration as a reverse proxy.
-- **Database**: Integration with a database service.
-- **CI/CD**: Automating the build, test, and deployment processes.
-- **Load Testing**: Performance testing to evaluate the application’s behavior under load.
-
-## Objectives
-
-### Containerize the Microservices Using Docker:
-- Set up Dockerfiles for each microservice in the application. Ensure that each service can be independently built and run within its own container.
-- Create a `docker-compose.yml` file to manage multi-container deployments during local development.
-
-### Configure Nginx as a Reverse Proxy:
-- Use Nginx as a reverse proxy to route traffic to the appropriate microservices.
-- Configure Nginx to serve static content and load balance requests between multiple instances of a microservice.
-
 ### Integrate a Database:
 - Set up a database service (MySQL or PostgreSQL) using Docker.
 - Connect the microservices to the database and ensure data persistence.
@@ -48,7 +25,29 @@ The task involves the following components:
 You can start by setting up a basic microservices application using any programming language or framework of your choice (e.g., Node.js, Python, Java). Then, follow the steps outlined below:
 
 ### Dockerization:
-- Write Dockerfiles for each microservice.
+- Write Dockerfiles for# Build a Complete CI/CD Pipeline for a Microservices Application with Load Testing
+
+## Overview
+Your task is to implement a complete CI/CD pipeline for a microservices-based web application using Docker, Nginx, and Ansible, with a focus on load testing.
+
+The task involves the following components:
+- **Microservices**: A simple web application broken down into multiple microservices.
+- **Docker**: Containerization of the application.
+- **Nginx**: Configuration as a reverse proxy.
+- **Database**: Integration with a database service.
+- **CI/CD**: Automating the build, test, and deployment processes.
+- **Load Testing**: Performance testing to evaluate the application’s behavior under load.
+
+## Objectives
+
+### Containerize the Microservices Using Docker:
+- Set up Dockerfiles for each microservice in the application. Ensure that each service can be independently built and run within its own container.
+- Create a `docker-compose.yml` file to manage multi-container deployments during local development.
+
+### Configure Nginx as a Reverse Proxy:
+- Use Nginx as a reverse proxy to route traffic to the appropriate microservices.
+- Configure Nginx to serve static content and load balance requests between multiple instances of a microservice.
+ each microservice.
 - Use Docker Compose for local development and testing.
 
 ### Nginx Configuration:

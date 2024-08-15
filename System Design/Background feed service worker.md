@@ -55,3 +55,12 @@ The objective is to create a service worker that generates a feed of posts from 
 - **Caching Strategies:** [Google Developers - Caching Strategies](https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/cache-api)
 - **Example Service Worker Projects:**
   - [Service Worker Cookbook](https://serviceworke.rs/)
+
+
+
+
+
+
+<!-- 
+Link of excel draw
+https://excalidraw.com/#json=ZVPiZ_o_2jZ92a5aobcPu,Ug0Qq0TH6tPsZU3fzZ-C-w -->

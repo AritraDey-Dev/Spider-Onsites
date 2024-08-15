@@ -55,3 +55,18 @@ A DDoS attack aims to disrupt normal website traffic by overwhelming the server 
 
 * Implement automated recovery processes to restore normal operations swiftly after an attack.
 * Continuously monitor system performance and adjust configurations to maintain high availability.
+
+
+<!-- 
+
+
+1. **Prometheus:** A monitoring tool that collects and stores metrics, helping detect abnormal traffic patterns.
+2. **Grafana:** A visualization tool that creates dashboards to monitor traffic and receive alerts.
+3. **Nginx/Apache Rate Limiting:** Web servers that limit incoming requests per IP to prevent abuse.
+4. **AWS API Gateway:** Manages API requests with throttling and rate limiting to protect from excessive traffic.
+5. **IPTables/Security Groups:** Tools for filtering and blocking malicious IP addresses at the network level.
+6. **HAProxy:** A load balancer that distributes traffic across multiple servers to handle large loads.
+7. **Cloudflare CDN:** A CDN service that caches content and absorbs DDoS traffic to protect the origin server.
+8. **AWS WAF:** A Web Application Firewall that blocks malicious traffic and protects web applications from attacks.
+9. **AWS Shield:** A DDoS protection service that provides advanced mitigation against large-scale attacks.
+10. **AWS Lambda:** A serverless computing service that automates recovery processes and executes scripts during an attack. -->
